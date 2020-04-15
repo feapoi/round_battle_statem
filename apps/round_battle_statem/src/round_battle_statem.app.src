@@ -1,0 +1,20 @@
+%%%-------------------------------------------------------------------
+%%% @author 10621
+%%% @copyright (C) 2020, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 13. 四月 2020 10:32
+%%%-------------------------------------------------------------------
+{application, round_battle_statem, [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lager
+    ]},
+    {mod, {round_battle_statem, []}},
+    {env, []}
+]}.
